@@ -1,0 +1,43 @@
+
+.search{
+border-radius: 15px;
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+.select{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+.search{
+    width: 500px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-20%,50%);
+}
+input[type="text"]{
+    position: absolute;
+    right: -500px;
+    width: 500px;
+    height: 30px;
+    border-radius:50px ;
+}
+input[type="submit"]{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top:400px;
+    right: 600px;
+}
+.image{
+    text-align: right;
+}
